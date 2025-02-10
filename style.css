@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
-
 body{
+    
     display: block;
     height: 100vh;
     width: 100vw;
@@ -14,7 +15,6 @@ body{
     font-variation-settings:
       "wdth" 100;
 }
-
 #imagem {
     width: 100%;
     height: 100%;
@@ -33,7 +33,7 @@ body{
     
 }
 #signin{
-    margin-top: -50%
+    margin-top: 15%
 }
 #signin :hover{
     background-color: black;
@@ -48,7 +48,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 3vh;
+    height: 5vh;
     width: 4.5vw;
 }
 #clicks :hover{
@@ -56,18 +56,16 @@ body{
     color: white;
 }
 #botao{
-    margin-top: -50%;
+    margin-top: 15%;
     border-radius: 15px;
-    height: 3vh;
+    height: 5vh;
     width: 5.5vw;
     background-color: white;
     display: flex;
-    align-items: center;
-    
-    
+    align-items: center;  
 }
 #botao a{
-    margin-left: 15px;
+    margin-left: 13px;
     text-decoration: none;
     color: black;
     
@@ -84,10 +82,10 @@ body{
 }
 
 #marca{
-    margin-top: -22%;
+    margin-top: -10%;
 }
 #marca h2{
-    margin-bottom: 35%;
+    margin-bottom: 10%;
     color: white;
     font-size: 20px;
     font-weight: 500;
@@ -119,16 +117,19 @@ body{
     outline: none;
 }
 #dot button{
+    
     border: none;
     background-color: rgb(235, 23, 0);
-    border-radius: 25px;
-    height: 3vh;
-    width: 2vw;
+    border-radius: 30px;
+    height: 4.5vh;
+    width: 2.1vw;
     color: white;
     margin-left: 7%;
-    
 }
+#dot button:hover{
+    background-color: black;
 
+}
 #solid{
     color:rgb(218, 7, 7) ;
 }
@@ -165,9 +166,9 @@ body{
     
 }
 .gap{
-    margin-bottom: 10%;
-    
+    margin-bottom: 10%;  
 }
+
 
 #grande a{
     text-decoration: none;
@@ -191,7 +192,7 @@ body{
     position: relative;
     width: 100vw;
     height: 40vh;
-    margin-left: 35vw;
+    margin-left: 15vw;
 }
 
 #textos{
@@ -209,8 +210,8 @@ body{
     gap: 5vw;
     flex-direction: row-reverse;
     background-color: #fff0edff;
-    margin-top: -7vh;
-    height: 60vh;
+    margin-top: 7vh;
+    height: 90vh;
     width: 100vw;   
     
 }
@@ -224,7 +225,7 @@ body{
 #imagem1{
     position: absolute;
     display: flex;
-    margin-top: -90vh;
+    margin-top: -130vh;
     margin-left: 55vw;
     
 }
@@ -237,7 +238,7 @@ body{
     align-items: center;
     justify-content: center;
     border: none;
-    height: 3vh;
+    height: 4vh;
     width: 8vw;
     background-color: #eb1700ff;
     color: white;
@@ -246,6 +247,7 @@ body{
     margin-top: 1vh;
 }
 .button{
+    
     margin-left: 12vw;
 
 }
@@ -254,7 +256,7 @@ body{
     align-items: center;
     justify-content: center;
     border: none;
-    height: 3vh;
+    height: 4vh;
     width: 10vw;
     font-size: 12px;
     background-color: #eb1700ff;
@@ -346,7 +348,7 @@ margin: 3px;
 }
 #cont6{
     color: white;
-    margin-bottom: 65vh;
+    margin-bottom: 30vh;
     margin-left: -35vw;
 }
 #cont6 dd{
@@ -355,7 +357,7 @@ margin: 3px;
 }
 #cont7{
     color: white;
-    margin-bottom: 80vh;
+    margin-bottom: 57.5vh;
     margin-left: 5vw;
 }
 #cont7 dd{
@@ -364,7 +366,7 @@ margin: 3px;
 }
 #cont8{
     color: white;
-    margin-bottom: 80vh;
+    margin-bottom: 55vh;
     margin-left: 5vw;
 }
 #cont8 dd{
@@ -393,7 +395,7 @@ margin: 3px;
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    height: 4vh;
+    height: 6vh;
     width: 10vw;
     flex-direction: column;
     color: #bababaff;
@@ -411,7 +413,7 @@ margin: 3px;
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    height: 4vh;
+    height: 6vh;
     width: 10vw;
     flex-direction: column;
     color: #bababaff;
@@ -451,4 +453,30 @@ margin: 3px;
     margin-left: 40vw;
     gap: 10px;
     font-size: 15px;
+}
+@media (max-width:600px)
+{   #botao{
+    margin-left: -30vw;
+}
+    #signin{
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+        margin-left: -10vw;
+    }
+    #marca{
+        margin-bottom: 10vh;
+    }
+    #marca i{
+        font-size: 10px;
+    }
+    #marca h2{
+        font-size: 10px;
+    }
+    #paragrafo{
+        margin-bottom: 15vh;
+    }
+    #paragrafo h1{
+        font-size: 20px
+    }
 }
